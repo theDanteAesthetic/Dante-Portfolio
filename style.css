@@ -1,8 +1,37 @@
+@font-face {
+    font-family: "Marvel";
+    src: 
+        url("Marvel-Regular.woff2");
+}
+body {
+    background-color: blanchedalmond;
+}
 p {
-    font-size: 2em;
+    text-indent: 1em;
+    font-size: 1.5em;
+    font-family: "Marvel", sans-serif;
+    font-weight: 300;
+    border-bottom: 1px dashed;
+}
+
+h1 {
+    font-family: "Marvel", sans-serif;
+    font-size: 3em;
+    font-weight: 100;
+    border: 2px dashed;
+    background-color: rgb(255, 250, 242);
 }
 
 #annoyingOrange {
     width: 500px;
     height: 500px;
+    
+}
+
+.odd {
+    border: 2px dashed red;
+}
+
+.even {
+    border: 2px dashed aqua;
 }
