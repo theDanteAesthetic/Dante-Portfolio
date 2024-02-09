@@ -3,35 +3,46 @@
     src: 
         url("Marvel-Regular.woff2");
 }
-body {
-    background-color: blanchedalmond;
-}
-p {
-    text-indent: 1em;
-    font-size: 1.5em;
-    font-family: "Marvel", sans-serif;
-    font-weight: 300;
-    border-bottom: 1px dashed;
-}
 
-h1 {
+.pageTitle {
     font-family: "Marvel", sans-serif;
     font-size: 3em;
     font-weight: 100;
-    border: 2px dashed;
+    border: 0.125rem dashed;
     background-color: rgb(255, 250, 242);
+    text-shadow: 1px 1px 3px rgba(247, 112, 22, 0.4);
+    position: relative;
+    top: 0.5rem;
+    width: 9em;
 }
 
-#annoyingOrange {
-    width: 500px;
-    height: 500px;
-    
+.pageSubtitle {
+    font-size: 1.5em;
+    font-family: "Marvel", sans-serif;
+    font-weight: 300;
+    border-bottom: 0.05rem dashed;
+    position: relative;
+    top: 0.75rem;
+    display: inline-block;
+    position: reletive;
 }
 
-.odd {
-    border: 2px dashed red;
+.pageLink {
+    font-size: 1.5em;
+    font-family: "Marvel", sans-serif;
+    font-weight: 300;
+    border: 0.05rem dashed;
+    background-color: rgb(255, 250, 242);
+    text-shadow: 1px 1px 3px rgba(247, 112, 22, 0.4);
+    position: relative;
+    top: -2.5rem;
+    left: 28rem;
+    min-width: 3rem;
+    display: inline-block;
+    position: reletive;
 }
 
-.even {
-    border: 2px dashed aqua;
+body {
+    background-color: blanchedalmond;
 }
+
