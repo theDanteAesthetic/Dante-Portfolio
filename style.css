@@ -6,43 +6,71 @@
 
 .pageTitle {
     font-family: "Marvel", sans-serif;
-    font-size: 3em;
+    font-size: 3.5rem;
     font-weight: 100;
     border: 0.125rem dashed;
-    background-color: rgb(255, 250, 242);
+    background-color: rgb(255, 239, 216);
     text-shadow: 1px 1px 3px rgba(247, 112, 22, 0.4);
     position: relative;
     top: 0.5rem;
     width: 9em;
+    display: inline-block;
 }
 
-.pageSubtitle {
-    font-size: 1.5em;
+.pageLink {
+    font-size: 2.25rem;
+    font-family: "Marvel", sans-serif;
+    font-weight: 300;
+    border: 0.1rem dashed;
+    padding: 2px;
+    background-color: rgb(255, 239, 216);
+    text-shadow: 1px 1px 3px rgba(247, 112, 22, 0.4);
+    position: relative;
+    top: -3.5rem;
+    left: 33rem;
+    min-width: 3rem;
+    display: inline-block;
+}
+.pageLink:hover{
+    background-color: rgb(255, 190, 93);
+}
+
+.pageAboutTitle {
+    font-size: 2.5em;
+    font-family: "Marvel", sans-serif;
+    font-weight: 300;
+    border-bottom: 0.05rem dashed;
+    position: relative;
+    top: 0.75rem;
+    left: 0rem;
+    display: inline-block;
+    
+}
+
+.pageProjectsTitle {
+    font-size: 2.5em;
     font-family: "Marvel", sans-serif;
     font-weight: 300;
     border-bottom: 0.05rem dashed;
     position: relative;
     top: 0.75rem;
     display: inline-block;
-    position: reletive;
+    
 }
 
-.pageLink {
-    font-size: 1.5em;
+.pageContactTitle {
+    font-size: 2em;
     font-family: "Marvel", sans-serif;
     font-weight: 300;
-    border: 0.05rem dashed;
-    background-color: rgb(255, 250, 242);
-    text-shadow: 1px 1px 3px rgba(247, 112, 22, 0.4);
+    border-bottom: 0.05rem dashed;
     position: relative;
-    top: -2.5rem;
-    left: 28rem;
-    min-width: 3rem;
+    top: 0.75rem;
     display: inline-block;
-    position: reletive;
+    
 }
 
+
 body {
-    background-color: blanchedalmond;
+    background-color: rgb(252, 222, 181);
 }
 
