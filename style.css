@@ -7,7 +7,6 @@
 .pageTitle {
     font-family: "Marvel", sans-serif;
     font-size: 3.5rem;
-    font-weight: 100;
     border: 0.125rem dashed;
     background-color: rgb(255, 239, 216);
     text-shadow: 1px 1px 3px rgba(247, 112, 22, 0.4);
@@ -17,10 +16,10 @@
     display: inline-block;
 }
 
+
 .pageLink {
     font-size: 2.25rem;
     font-family: "Marvel", sans-serif;
-    font-weight: 300;
     border: 0.1rem dashed;
     padding: 2px;
     background-color: rgb(255, 239, 216);
@@ -30,15 +29,34 @@
     left: 33rem;
     min-width: 3rem;
     display: inline-block;
+    height: 2.2rem;
 }
-.pageLink:hover{
-    background-color: rgb(255, 190, 93);
+
+.square {
+    width: 50px;
+    height: 2.2rem;
+    background-color: aqua;
+}
+
+@keyframes buttonFill {
+    0%{
+        width: 0rem;
+    }
+    100% {
+        width: 5rem;
+    }
+}
+
+.square:hover{
+    animation-name: buttonFill;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    background-color: rgb(245, 201, 136);
 }
 
 .pageAboutTitle {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     font-family: "Marvel", sans-serif;
-    font-weight: 300;
     border-bottom: 0.05rem dashed;
     position: relative;
     top: 0.75rem;
@@ -47,10 +65,16 @@
     
 }
 
+.pageAboutText {
+    font-size: 2rem;
+    font-family: "Marvel", sans-serif;
+    padding: 5px 5px 5px 0px;
+    width: 20rem;
+}
+
 .pageProjectsTitle {
     font-size: 2.5em;
     font-family: "Marvel", sans-serif;
-    font-weight: 300;
     border-bottom: 0.05rem dashed;
     position: relative;
     top: 0.75rem;
@@ -60,8 +84,7 @@
 
 .pageContactTitle {
     font-size: 2em;
-    font-family: "Marvel", sans-serif;
-    font-weight: 300;
+    font-family: "Marvel", sans-serif;   
     border-bottom: 0.05rem dashed;
     position: relative;
     top: 0.75rem;
@@ -69,8 +92,8 @@
     
 }
 
-
 body {
     background-color: rgb(252, 222, 181);
+    
 }
 
